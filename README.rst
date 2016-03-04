@@ -28,11 +28,11 @@ Usage
 To use this repository just use the ``template`` option of `django-admin
 <https://docs.djangoproject.com/en/1.8/ref/django-admin/#startproject-projectname-destination>`_::
 
-    $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip [projectname]
+    $ django-admin startproject --template=https://github.com/heyfluke/django-project-skeleton/archive/1.2.zip [projectname]
 
 If you wish to automagically fill the ``apache2_vhost.sample`` the command is::
 
-    $ django-admin startproject --template=https://github.com/Mischback/django-project-skeleton/archive/development.zip --name apache2_vhost.sample [projectname]
+    $ django-admin startproject --template=https://github.com/heyfluke/django-project-skeleton/archive/1.2.zip--name apache2_vhost.sample [projectname]
 
 
 Documentation
