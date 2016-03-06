@@ -40,7 +40,7 @@ sys.path.append(normpath(join(PROJECT_ROOT, 'apps')))
 # ##### APPLICATION CONFIGURATION #########################
 
 # Application definition
-INSTALLED_APPS = [
+DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
